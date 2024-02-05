@@ -1,0 +1,13 @@
+.container {
+  min-height: 600px;
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  margin: 0 auto;
+
+  input {
+    height: 1.4rem;
+  }
+}

@@ -1,0 +1,109 @@
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  height: 756px;
+  margin-top: 2rem;
+
+  .img {
+    height: 100%;
+  }
+
+  .brandName {
+    font-size: 1.8rem;
+    margin: 0;
+    font-weight: 900;
+  }
+  .productName {
+    color: rgb(27, 27, 27) k;
+  }
+  .hr {
+    height: 3px;
+    background-color: black;
+    margin-bottom: 2rem;
+  }
+
+  dl {
+    display: flex;
+    .title {
+      font-weight: 700;
+      width: 130px;
+    }
+    dd {
+      margin: 0;
+    }
+    margin-bottom: 2rem;
+  }
+
+  .strong {
+    font-weight: 700;
+  }
+  .important {
+    font-size: 1.6rem;
+  }
+  .red {
+    font-size: 1.1rem;
+    color: rgb(209, 25, 25);
+    font-weight: 700;
+    padding-top: 8px;
+  }
+  .couponButton {
+    border: none;
+    background-color: #f0eeee;
+    padding: 0.5rem;
+    margin-left: 0.8rem;
+    border-radius: 3px;
+    color: rgb(66, 64, 64);
+  }
+
+  .optionLabel {
+    font-weight: 700;
+
+    .sizeChart {
+      background-color: transparent;
+      border: 0.5px solid black;
+      font-weight: 700;
+      margin-left: 1rem;
+      padding: 5px 30px;
+      font-size: 1.05rem;
+    }
+  }
+  .select {
+    width: 18rem;
+    margin-top: 1rem;
+    height: 3rem;
+  }
+
+  .count {
+    width: 18rem;
+    margin-top: 1rem;
+    height: 3rem;
+    text-align: center;
+  }
+  .buttonContainer {
+    display: flex;
+    margin-top: 1rem;
+
+    .buyButton {
+      width: 18rem;
+      height: 3rem;
+      background-color: black;
+      color: white;
+      font-size: 1.1rem;
+      font-weight: 6700;
+
+      &:hover {
+        opacity: 0.7;
+        cursor: pointer;
+      }
+    }
+    .likedButton {
+      margin-left: 1rem;
+      padding: 0;
+      &:hover {
+        opacity: 0.7;
+        cursor: pointer;
+      }
+    }
+  }
+}
